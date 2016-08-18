@@ -12,7 +12,7 @@ var getQueryString = function ( field, url ) {
     var string = reg.exec(href);
     return string ? string[1] : null;
 };
-var condition = getQueryString('regsource'); 
-var ID = getQueryString('varID');
+var condition = getQueryString('reg_source'); 
+var ID = getQueryString('variant_id');
 document.getElementById("custom_link").innerHTML = "<a class='ogz_donor_button' target='_blank' href='https://register.organize.org/?reg_source=" + condition + "&variant_id=" + ID + "'>Register</a>"
 ; 
