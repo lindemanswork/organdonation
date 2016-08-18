@@ -5,7 +5,6 @@
 <link rel="stylesheet" type="text/css" href="organizestyle.css">
 <body>
 
-</script>
 <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1465071968915{padding-top:0px!important;background-color:#b2b09b!important;}.vc_custom_1465071972791{padding-top:0px!important;background-color:#969483!important;}</style><noscript><style type="text/css">.wpb_animate_when_almost_visible{opacity:1;}</style></noscript></head>
 <body class="home page page-id-123 page-template-default wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive">
 <div class="ogz_vc_row_fix">
@@ -24,25 +23,8 @@
 </div>
 </div>
 
-<script>
-/**
- * Get the value of a querystring
- * @param  {String} field The field to get the value of
- * @param  {String} url   The URL to get the value from (optional)
- * @return {String}       The field value
- */
-var getQueryString = function ( field, url ) {
-    var href = url ? url : window.location.href;
-    var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
-    var string = reg.exec(href);
-    return string ? string[1] : null;
-};
-var condition = getQueryString('regsource'); 
-var ID = getQueryString('varID');
-
-
-document.getElementById("custom_link").innerHTML = "<a class='ogz_donor_button' target='_blank' href='https://register.organize.org/?reg_source=" + condition + "&variant_id=" + ID + "'>Register</a>"
-; </script>
+<script src="geturl.js" type="text/javascript">
+</script>
 
 </body>
 </html>
