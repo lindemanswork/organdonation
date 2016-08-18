@@ -93,7 +93,8 @@ a:hover{ outline: none; }
 }
 .ogz_donor_title {
  font-size: 40px;
- margin: 90px 0 70px;
+ margin: 90px auto 70px;
+ width: 78%;
  color: #fff;
 }
 .ogz_donor_register {
