@@ -204,13 +204,10 @@ a:hover{ outline: none; }
  position: absolute;
  width:209px;
  height: 190px;
- background: url(../images/heart.png) no-repeat top left;
  top:250px;
  right: -105px;
 }
-.ogz_donor_heart.active {
- background: url(../images/heart-full.png) no-repeat top left;
-}
+
 .vc_col-lg-6:last-child .ogz_donor_heart {
  right: auto;
  left: -104px;
