@@ -14,5 +14,5 @@ var getQueryString = function ( field, url ) {
 };
 var condition = getQueryString('reg_source'); 
 var ID = getQueryString('variant_id');
-document.getElementById("custom_link").innerHTML = "<a class='ogz_donor_button' target='_blank' href='https://register.organize.org/?reg_source=" + condition + "&variant_id=" + ID + "'>Register</a>"
+document.getElementById("custom_link").innerHTML = "<a class='ogz_donor_button' target='_blank' href='https://register.organize.org/become-a-donor/?reg_source=" + condition + "&variant_id=" + ID + "'>Register</a>"
 ; 
